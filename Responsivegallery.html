@@ -1,0 +1,84 @@
+<html>
+<head>
+<title>Responsive Image Gallery</title>
+<meta charset="UTF-8"/>S
+<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+<style>
+
+.gallery {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+
+.gallery img {
+ width: 30%;
+ height:auto;
+ border:4px solid black;
+ margin: 10px;
+ border-radius: 10px;
+ box-shadow: 0 0 10px 3px;
+}
+
+@media(min-width: 1200px) {
+
+.gallery img {
+width: 20%;
+ 
+}
+}
+
+
+@media (min-width: 768px) and (max-width: 1199px) {
+.gallery img {
+width: 30%;
+  }
+}
+		
+@media  (max-width: 767px) {
+ .gallery img {
+width: 50%;
+  }
+
+}
+</style>
+</head>
+<body bgcolor="grey">
+<center><h1 style="background-color:black; color:white;width:40%; height:7%; border-radius:10px; margin-left:0px;"><u>Responsive Image Gallery</u></h1></center>
+<br/><br/><br/><br/>
+<div class="gallery">
+<img src="img/actor1.jpg" alt="Image 1">
+
+<img src="img/actor2.jpeg" alt="Image 2">
+
+<img src="img/actor3.jpg" alt="Image 3">
+
+<img src="img/actor4.jpg" alt="Image 4">
+
+<img src="img/bike3.jpg" alt="Image 5">
+
+<img src="img/bike4.jpg" alt="Image 6">
+
+<img src="img/bike1.jpg" alt="Image 7">
+
+<img src="img/bike2.jpg" alt="Image 8">
+
+<img src="img/car1.jpg" alt="Image 9">
+
+<img src="img/car2.jpg" alt="Image 10">
+
+<img src="img/car3.webp" alt="Image 11">
+
+<img src="img/car4.webp" alt="Image 12">
+
+<img src="img/college1.webp" alt="Image 13">
+
+<img src="img/college2.webp" alt="Image 14">
+
+<img src="img/college4.jpeg" alt="Image 15">
+
+<img src="img/college3.avif" alt="Image 16">
+
+</div>
+</body>
+</html>
